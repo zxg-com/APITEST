@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<interface>
+
+
+    <url name="login">
+        <action>/call/passport/securitycheck</action>
+    </url>
+
+    <url name="logout">
+        <action>/call/tocure/web/user/logout/</action>
+    </url>
+
+    <url name="getWebUser">
+        <action>/call/tocure/web/user/getWebUser/</action>
+    </url>
+
+    <url name="h5_sendcode">
+        <action>/mcall/patient/customer/unite/v1/quickSendCode/</action>>
+    </url>
+
+    <url name="h5_login">
+        <action>/mcall/patient/customer/unite/v1/accountlogin/</action>
+    </url>
+
+    <url name="h5_logout">
+        <action>/mcall/patient/customer/unite/v1/logout/</action>
+    </url>
+
+    <url name="selectAccount">
+        <action>/allin_manager_platform/v2/admin/tocureCustomerPatientRelationAction!getCustomerList</action>
+    </url>
+    <url name="deleteAccount">
+        <action>/allin_manager_platform/v2/admin/tocurePatientCustomerUniteAction!saveOrUpdate</action>>
+    </url>>
+
+    <url name="h5_getpicurl">
+        <action>/mcall/customer/patient/case/attachment/v1/create/</action>
+    </url>
+</interface>

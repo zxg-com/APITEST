@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<page>
+    <database name="tocure_platform">
+        <table name="tocure_customer_send_code">
+            <sql id="select_code">
+                select valid_code from tocure_customer_send_code where account = %s  ORDER BY id DESC LIMIT 1
+            </sql>
+        </table>
+
+        <table name="testtable">
+            <sql id="delete_user">
+                DELETE FROM rs_member WHERE email=%s
+            </sql>
+        </table>
+    </database>
+</page>

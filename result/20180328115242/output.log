@@ -1,0 +1,3 @@
+2018-03-28 11:52:42,824 - root - ERROR - Can't convert 'int' object to str implicitly
+2018-03-28 11:52:42,824 - root - INFO - *********测试 结束*********
+2018-03-28 11:52:42,984 - root - INFO - 报告已发送至邮箱.

@@ -1,0 +1,2 @@
+H5/Ad/getadlist
+pc/IM/getTools
